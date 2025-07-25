@@ -1,0 +1,124 @@
+body{
+    background: rgb(231, 217, 237);
+}
+h2{
+    color: rgb(67, 4, 240);
+}
+.contact-us{
+    width: 600px;
+    background: #eeeef0;
+    padding: 50px;
+    margin: 100px auto;
+    border-radius: 30px;
+    position: relative;
+}
+.social-icon{
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    display: flex;
+}
+.social-icon div{
+    width: 120px;
+    height: 90px;
+    border-radius: 10%;
+    position: relative;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.social-icon div a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(13, 0, 0);
+}
+.social-icon div.home{
+    background: #f2f2f3;
+}
+.social-icon div.music{
+    background: #f6f6f6;
+}
+.social-icon div.contact{
+    background: #f8f7f7;
+}
+img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+img{
+    border-radius: 20%;
+}
+.form, .form-item{
+    top: 20%;
+    width: 100%;
+}
+.form-item .input{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: none;
+    padding: 25px 40px;
+    box-sizing: border-box;
+    background: rgb(251, 251, 251);
+}
+.form-item{
+    position: relative;
+}
+.form-item .fas{
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+.btn{
+    text-align: center;
+    width: 95%;
+    background: #eb2c2c;
+    border-radius: 20px;
+    padding: 10px 6px;
+    color:#1b1b1a;
+    cursor: pointer;
+    margin: 10px;
+}
+.sidebar{
+    height: 1000px;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #4b4eff;
+    padding-top: 20px;
+}
+.sidebar a{
+    display: block;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+.sidebar a:hover{
+    background-color: #575757;
+}
+.main-content{
+    margin-left: 210px;
+    padding: 20px;
+}
+
+.Ado1{
+    display: absolute;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.Ado2{
+    position: absolute;
+    top: 150px;
+    left: 400px;
+}
+
+.Ado3{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
